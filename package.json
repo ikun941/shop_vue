@@ -1,0 +1,33 @@
+{
+  "name": "view_vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5173 --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@dataview/datav-vue3": "^0.0.0-test.1672506674342",
+    "@jiaminghi/data-view": "^2.10.0",
+    "@kjgl77/datav-vue3": "^1.7.1",
+    "axios": "^1.6.2",
+    "coordtransform": "^2.1.2",
+    "echarts": "^5.4.3",
+    "echarts-wordcloud": "^2.1.0",
+    "sass": "^1.69.5",
+    "vue": "^3.3.8",
+    "vue-amap": "^0.5.10",
+    "vue-wordcloud": "^1.1.1",
+    "vue3-amap": "^1.0.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.11"
+  }
+}
